@@ -5,4 +5,4 @@
 
 2、通过git clone命令下载。
 
-` git clone https://github.com/dingyuanhao666/HTML-web.git `
+` https://github.com/dyhcode/html-web.git `
