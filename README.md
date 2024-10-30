@@ -23,4 +23,4 @@
 
 <https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git>
 
-### 如有问题，到<https://github.com/dyhcode/html-web/issues>链接提交
+### 如有问题，到<https://github.com/dyhcode/html-web/issues>链接提交您的问题
