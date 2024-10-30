@@ -27,4 +27,4 @@
 
 ### 如有问题，请到[问题提交](https://github.com/dyhcode/html-web/issues)
 
-![alt 茜特菈莉](./image/Yuan%20Shen%20原神%20Screenshot%202024.10.11%20-%2014.02.09.98.png)
+![alt 茜特菈莉](./image/茜特菈莉.png)
