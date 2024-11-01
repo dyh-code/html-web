@@ -28,4 +28,4 @@
 
 ### 如有问题，请到[问题提交](https://github.com/dyhcode/html-web/issues)
 
-![alt 茜特菈莉](./image/茜特菈莉.png)
+![茜特菈莉](./image/茜特菈莉.png)
