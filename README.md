@@ -11,8 +11,7 @@
 
 2、通过git clone命令下载。
 
-`` https://github.com/dyhcode/html-web.git ``
-`` git clone https://github.com/dyhcode/html-web.git ``
+`git clone https://github.com/dyhcode/html-web.git`
 
 ### git使用方法
 
