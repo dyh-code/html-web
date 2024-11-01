@@ -7,11 +7,39 @@
     <title>表单</title>
 </head>
 <style>
-    html{
+    html {
         background-color: rgb(255, 207, 207);
     }
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #ffffff79;
+        border-radius: 20px;
+        /* 圆角 */
+        padding: 10px 0;
+    }
+
+    .nav-item {
+        color: black;
+        /* 文字颜色 */
+        font-size: 20px;
+        /* 字体大小 */
+        text-decoration: none;
+        /* 去掉下划线 */
+        transition: color 0.3s ease;
+        /* 颜色过渡效果 */
+    }
+
+    .nav-item:hover {
+        color: #FF1493;
+        /* 鼠标悬停时颜色变化 */
+    }
 </style>
+
 <body>
+    <nav class="navbar">
+        <a href="./报名.html" class="nav-item">返回</a>
+    </nav>
     <form action="">
         <h1>注册信息</h1>
         <h2>个人信息</h2>
