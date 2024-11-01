@@ -13,6 +13,9 @@
 
 `git clone https://github.com/dyhcode/html-web.git`
 
+3、定时发布版本（可能不是最新），
+前往[发布页](https://github.com/dyhcode/html-web/releases)
+
 ### git使用方法
 
 下载：
@@ -21,10 +24,10 @@
 `winget install git.Git`
 回车。
 
-或使用浏览器下载
-
-[安装Git](https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-64-bit.exe)
+或使用浏览器下载[安装Git][def]
 
 ### 如有问题，请到[问题提交](https://github.com/dyhcode/html-web/issues)
 
 ![茜特菈莉](./image/茜特菈莉.png)
+
+[def]: https://git-scm.com/downloads/win
