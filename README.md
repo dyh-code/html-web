@@ -1,4 +1,3 @@
-<!-- 这是自述文件，无用 -->
 # dyh的文件
 
 ## 使用说明
@@ -11,23 +10,33 @@
 
 2、通过git clone命令下载。
 
-`git clone https://github.com/dyhcode/html-web.git`
+```bash
+git clone https://github.com/dyhcode/html-web.git
+```
 
 3、定时发布版本（可能不是最新），
 前往[发布页](https://github.com/dyhcode/html-web/releases)
-
 ### git使用方法
 
-下载：
-使用winget下载git
-打开终端，输入：
-`winget install git.Git`
-回车。
+#### 下载和安装Git
 
-或使用浏览器下载[安装Git][def]
+- **使用winget下载git**
 
-### 如有问题，请到[问题提交](https://github.com/dyhcode/html-web/issues)
+- 打开终端，输入：
+
+```bash
+winget install git.Git
+```
+
+- 回车。
+
+- **使用浏览器下载**
+
+- 访问 [Git官网](https://git-scm.com/downloads/win) 下载适用于
+Windows的安装程序。
+
+- 按照提示完成安装。
+
+### 如代码遇到问题，请到[问题提交](https://github.com/dyhcode/html-web/issues)反馈
 
 ![茜特菈莉](./image/茜特菈莉.png)
-
-[def]: https://git-scm.com/downloads/win
