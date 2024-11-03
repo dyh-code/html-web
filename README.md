@@ -14,7 +14,7 @@
 git clone https://github.com/dyhcode/html-web.git
 ```
 
-3、定时发布版本（可能不是最新），
+3、定时发布版本(可能不是最新),
 前往[发布页](https://github.com/dyhcode/html-web/releases)
 
 ### git使用方法
