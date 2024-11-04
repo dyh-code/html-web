@@ -1,5 +1,7 @@
 # dyh's Files
-[中文](./README.md) | English
+
+[Simplified Chinese](./README.md) | English
+
 ## Instructions
 
 ### Download Method
