@@ -1,6 +1,6 @@
 # dyh's Files
 
-[Simplified Chinese](./README.md) | English
+- [简体中文](./README.md) | [繁体中文](./README_zh_TW.md) | [English](./README_en_US.md)
 
 ## Instructions
 
@@ -33,9 +33,7 @@ winget install git.Git
 
 - **Download using the browser**
 
-- Visit [Git](https://git-scm.com/downloads/win) Download for Windows
-
-- 按照提示完成安装。
+- Visit [Git](https://git-scm.com/downloads/win) Download for Windows, and click the Download button to download.
 
 ### If you encounter problems with the code, please submit feedback to [Issue Submission](https://github.com/dyhcode/html-web/issues) feedback
 
