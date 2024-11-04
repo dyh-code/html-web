@@ -1,6 +1,6 @@
 # dyh的文件
 
--[简体中文](./README.md) | [繁体中文](./README_zh_TW.md) | [English](./README_en_US.md.md)
+- [简体中文](./README.md) | [繁体中文](./README_zh_TW.md) | [English](./README_en_US.md)
 
 ## 使用說明
 
