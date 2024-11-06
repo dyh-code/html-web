@@ -42,5 +42,5 @@ Windows的安裝程序。
 
 ### 如代碼遇到問題，請到[問題提交](https://github.com/dyhcode/html-web/issues)反饋
 
-![茜特菈莉](./image/茜特菈莉.png)
+![茜特菈莉](./images/茜特菈莉.png)
 <!-- 我的茜特菈莉就是好看 -->

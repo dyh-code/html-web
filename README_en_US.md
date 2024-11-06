@@ -37,5 +37,5 @@ winget install git.Git
 
 ### If you encounter problems with the code, please submit feedback to [Issue Submission](https://github.com/dyhcode/html-web/issues) feedback
 
-![Saiterari](./image/茜特菈莉.png)
+![Saiterari](./images/茜特菈莉.png)
 <!-- My Saiterari is beautiful -->

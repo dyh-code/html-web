@@ -39,5 +39,5 @@ winget install git.Git
 
 ### コードに問題が発生した場合、[問題の投稿](https://github.com/dyhcode/html-web/issues)にフィードバックしてください
 
-![茜特菈莉](./image/茜特菈莉.png)
+![茜特菈莉](./images/茜特菈莉.png)
 <!-- 私の茜特菈莉はとても可愛い -->
