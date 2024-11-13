@@ -5,27 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>丁远浩做的小米布局</title>
-</head>
-<style>
-    body {
-        background-color: #ffbbbb;
-        text-align: center;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    <style>
+        body {
+            background: #ffd3d3;
+        }
 
-    .box-kj {
-        background-color: #fff;
-        width: 1226px;
-        height: 614px;
-    }
-</style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 1226px;
+            height: 614px;
+            margin: 100px;
+            background: #ffffff;
+        }
+
+        .box-left {
+            float: left;
+            width: 234px;
+            height: 614px;
+            background: #f980807e;
+        }
+
+        .box-right {
+            float: right;
+            width: 978px;
+            height: 614px;
+            background: #ffff;
+        }
+
+        .box-right ul li {
+            float: left;
+            list-style: none;
+            width: 234px;
+            height: 300px;
+            background: #ff8484;
+            margin-right: 14px;
+            margin-bottom: 14px;
+        }
+
+        .box-right ul li:nth-child(4n) {
+            margin-right: 0;
+        }
+    </style>
+</head>
 
 <body>
-    <div class="box-kj">
-        <div>
+    <div class="box">
+        <div class="box-left"></div>
+        <div class="box-right">
             <ul>
                 <li></li>
                 <li></li>
@@ -37,9 +68,6 @@
                 <li></li>
             </ul>
         </div>
-
-
-
     </div>
 </body>
 
