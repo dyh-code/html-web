@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>丁远浩做的小米布局</title>
+    <style>
+        body {
+            background: #ffd3d3;
+            font: 14px / 1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            display: flex;
+            width: 1226px;
+            height: 614px;
+            margin: 100px auto;
+            background: rgb(236, 236, 236);
+            border-radius: 5px;
+        }
+
+        .box-left {
+            width: 234px;
+            height: 614px;
+            background: rgb(218, 227, 234);
+            text-align: center;
+        }
+
+        .box-left img {
+            width: 100%;
+        }
+
+        .box-right {
+            display: flex;
+            flex-wrap: wrap;
+            width: calc(100% - 234px);
+            height: 614px;
+            background: rgb(236, 236, 236);
+        }
+
+        .box-right ul {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .box-right ul li {
+            width: 234px;
+            height: 300px;
+            background: rgb(255, 255, 255);
+            margin-right: 14px;
+            margin-bottom: 14px;
+            border-radius: 5px;
+        }
+
+        .box-right ul li:nth-child(4n) {
+            margin-right: 0;
+        }
+
+        .box-right ul li img {
+            width: 160px;
+            height: 160px;
+            margin: 20px auto;
+            /* Center the image */
+            display: block;
+        }
+
+        .box-right ul li h3 {
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .box-right ul li p {
+            text-align: center;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            color: rgb(177, 177, 177);
+        }
+
+        .box-right ul li p span {
+            color: rgb(255, 103, 1);
+        }
+
+        .box-right ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .box-right ul li:hover {
+            background: rgb(213, 213, 213);
+        }
+
+        .box-right ul li:nth-child(8n) {
+            background: rgb(236, 236, 236);
+        }
+
+        .box-right ul li:hover img {
+            width: 180px;
+            height: 180px;
+            margin: 10px auto;
+        }
+
+        .box-right ul li:nth-child(8n):hover img {
+            width: 160px;
+            height: 160px;
+            margin: 20px auto;
+            /* Center the image */
+            display: block;
+        }
+
+        .shang {
+            width: 234px;
+            background-color: #ffffff;
+            height: 143px;
+            border-radius: 5px;
+        }
+
+        .shang-left,
+        .shang-right {
+            display: grid;
+            place-items: center;
+            float: left;
+            width: 117px;
+            height: 134px;
+        }
+
+        .box-right ul li .shang a .shang-right img {
+            width: 117px;
+            height: 117px;
+        }
+
+        .box-right ul li .shang:hover a .shang-right img {
+            width: 127px;
+            height: 127px;
+        }
+
+        .box-right ul li .shang:hover {
+            background-color: rgb(213, 213, 213);
+        }
+
+        .xia {
+            width: 234px;
+            background-color: #ffffff;
+            height: 143px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+
+        .xia-left {
+            padding-top: 35px;
+            float: left;
+            width: 117px;
+            height: 134px;
+        }
+
+        .xia-right {
+            float: left;
+            width: 117px;
+            height: 134px;
+        }
+
+        .box-right ul li .xia a .xia-right img {
+            width: 99px;
+            height: 99px;
+        }
+
+        .box-right ul li .xia:hover a .xia-right img {
+            width: 109px;
+            height: 109px;
+        }
+
+        .box-right ul li .xia:hover {
+            background-color: rgb(213, 213, 213);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <!-- 左侧图片 -->
+        <div class="box-left">
+            <a href="#大图">
+                <img src="./images/穿戴设备/大图.webp" alt="xiaomi14Ultea">
+            </a>
+        </div>
+        <!-- 右侧列表 -->
+        <div class="box-right">
+            <ul>
+                <li>
+                    <!-- 第一项 -->
+                    <a href="#1">
+                        <img src="./images/穿戴设备/1.webp" alt="Xiaomi Watch S4">
+                        <h3>Xiaomi Watch S4</h3>
+                        <p>百变表圈 | 旋转表冠 | 小米澎湃OS2 | 双模对讲模式</p>
+                        <p><span>999元起</span></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第二项 -->
+                    <a href="#2">
+                        <img src="./images/穿戴设备/2.webp" alt="小米手环9 Pro">
+                        <h3>小米手环9 Pro</h3>
+                        <p>超窄四等边大屏 | 金属机身 | 21天超长续航</p>
+                        <p><span>399元起</span></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第三项 -->
+                    <a href="#3">
+                        <img src="./images/穿戴设备/3.webp" alt="Redmi 手环 3">
+                        <h3>Redmi 手环 3</h3>
+                        <p>18天超长续航 | 60Hz高刷大屏 | 全天健康监测 </p>
+                        <p><span>159元</span><del>169元</del></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第四项 -->
+                    <a href="#4">
+                        <img src="./images/穿戴设备/4.webp" alt="小米手环9">
+                        <h3>小米手环9</h3>
+                        <p>多彩金属机身 | 高精度运动健康监测 | 21天超耐久续航</p>
+                        <p><span>249元</span></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第五项 -->
+                    <a href="#5">
+                        <img src="./images/穿戴设备/5.webp" alt="小米手环9 NFC">
+                        <h3>小米手环9 NFC</h3>
+                        <p>多彩金属机身 | 高精度运动健康监测 | 18天超耐久续航</p>
+                        <p><span>299元起</span></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第六项 -->
+                    <a href="#6">
+                        <img src="./images/穿戴设备/6.webp" alt="Xiaomi Watch S4 Sport">
+                        <h3>Xiaomi Watch S4 Sport</h3>
+                        <p>一体钛机身 蓝宝石玻璃 | 颂拓运动算法支持 | 全新旋转表冠</p>
+                        <p><span>1899元起</span><del>1999元</del></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第七项 -->
+                    <a href="#7">
+                        <img src="./images/穿戴设备/7.webp" alt="小米手环8 Pro 原神定制版">
+                        <h3>小米手环8 Pro 原神定制版</h3>
+                        <p>达达利亚主题定制手环 | 主题定制充电底座 | 专属定制礼盒</p>
+                        <p><span>549元</span></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第八项 -->
+                    <div class="shang">
+                        <a href="#8">
+                            <div class="shang-left">
+                                <h3>Redmi Watch 4</h3>
+                                <p><span>499元</span></p>
+                            </div>
+                            <div class="shang-right">
+                                <img src="./images/穿戴设备/8.webp" alt="Redmi Watch 4">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="xia">
+                        <a href="#9">
+                            <div class="xia-left">
+                                <h3>浏览更多</h3>
+                                <p>穿戴</p>
+                            </div>
+                            <div class="xia-right">
+                                <img src="./images/箭头.png" alt="箭头">
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

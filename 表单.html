@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>丁远浩做的表单</title>
+</head>
+<style>
+    html {
+        background-color: rgb(255, 207, 207);
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #ffffff79;
+        border-radius: 20px;
+        /* 圆角 */
+        padding: 10px 0;
+    }
+
+    .nav-item {
+        color: black;
+        /* 文字颜色 */
+        font-size: 20px;
+        /* 字体大小 */
+        text-decoration: none;
+        /* 去掉下划线 */
+        transition: color 0.3s ease;
+        /* 颜色过渡效果 */
+    }
+
+    .nav-item:hover {
+        color: #FF1493;
+        /* 鼠标悬停时颜色变化 */
+    }
+</style>
+
+<body>
+    <nav class="navbar">
+        <a href="./报名.html" class="nav-item">返回</a>
+    </nav>
+    <form action="">
+        <h1>注册信息</h1>
+        <h2>个人信息</h2>
+        <p>性名：<input type="text" placeholder="请输入真实姓名"> <br> </p>
+        <p>密码： <input type="password" placeholder="请输入密码"> <br></p>
+        <p>确认密码： <input type="password" placeholder="请输入确认密码"> <br> </p>
+        <p>性别：<input type="radio" name="sex" checked>男
+            <input type="radio" name="sex">女 <br>
+        </p>
+        居住城市：<select>
+            <option>深圳</option>
+            <option>重庆</option>
+            <option>北京</option>
+            <option>上海</option>
+            <option>天津</option>
+            <option>唐山</option>
+            <option>石家庄</option>
+            <option>四川</option>
+            <option>长沙</option>
+            <option>南京</option>
+            <option>江苏</option>
+            <option>合肥</option>
+            <option>长春</option>
+            <option>广州</option>
+            <option>沈阳</option>
+        </select>
+        <br>
+        <h2>教育经历</h2>
+        <p>最高学历：<select>
+                <option>博士研究生</option>
+                <option>硕士研究生</option>
+                <option>大学本科</option>
+                <option>大学专科</option>
+                <option>高中</option>
+                <option>初中</option>
+            </select><br></p>
+        <p>学校名称：<input type="text"><br></p>
+        <p>所学专业：<input type="text"><br></p>
+        在校时间：
+        <select>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+            <option>2025</option>
+        </select>
+        --
+        <select>
+            <option>2026</option>
+            <option>2027</option>
+            <option>2028</option>
+            <option>2029</option>
+            <option>2031</option>
+            <option>2031</option>
+            <option>2032</option>
+            <option>2033</option>
+            <option>2034</option>
+            <option>2035</option>
+            <option>2036</option>
+            <option>2037</option>
+            <option>2038</option>
+            <option>2039</option>
+            <option>2040</option>
+            <option>2041</option>
+            <option>2042</option>
+            <option>2043</option>
+            <option>2044</option>
+            <option>2045</option>
+            <option>2046</option>
+            <option>2047</option>
+            <option>2048</option>
+            <option>2049</option>
+            <option>2050</option>
+        </select>
+        <h2>工作经历</h2>
+        <p>公司名称：<input type="text"></p>
+        <p>工作描述：<br><textarea class="dx"></textarea></p>
+        <p> <input type="checkbox">已阅读并同意以下协议
+        </p>
+        <p>
+        <ul nome="none">
+            <li>
+                《用户服务协议》
+            </li>
+            <li>
+                《隐私政策》
+            </li>
+        </ul>
+        </p>
+        <br>
+        <button>
+            <sumit>免费注册</sumit>
+        </button>
+        <button>
+            <reset>重新填写</reset>
+        </button>
+    </form>
+</body>
+
+</html>

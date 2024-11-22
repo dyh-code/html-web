@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>丁远浩做的小米布局</title>
+    <style>
+        body {
+            background: #ffd3d3;
+            /* 设置字体大小为14px，行高为1.5倍字体大小，字体为Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif */
+            font: 14px / 1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+        }
+
+        * {
+            /* 设置所有元素的边距为0 */
+            margin: 0;
+            /* 设置所有元素的填充为0 */
+            padding: 0;
+            /* 设置所有元素的盒模型为border-box */
+            box-sizing: border-box;
+        }
+
+        p {
+            /* 设置段落显示为块级元素 */
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            /* 设置段落内文本的书写方向为从右到左 */
+            unicode-bidi: isolate;
+        }
+
+        .box {
+            width: 1226px;
+            height: 614px;
+            margin: 100px;
+            background: rgb(236, 236, 236);
+        }
+
+        .box-left {
+            float: left;
+            width: 234px;
+            height: 614px;
+            background: rgb(218, 227, 234);
+            text-align: center;
+        }
+
+        .box-left img {
+            /* 设置图片宽度为100% */
+            width: 100%;
+        }
+
+        .box-right {
+            float: right;
+            width: 978px;
+            height: 614px;
+            background: rgb(236, 236, 236);
+        }
+
+        .box-right ul li {
+            float: left;
+            list-style: none;
+            width: 234px;
+            height: 300px;
+            background: rgb(255, 255, 255);
+            margin-right: 14px;
+            margin-bottom: 14px;
+            border-radius: 5px;
+        }
+
+        .box-right ul li:nth-child(4n) {
+            margin-right: 0;
+        }
+
+        .box-right ul li img {
+            width: 160px;
+            height: 160px;
+            margin: 20px 34px 0 34px
+        }
+
+        .box-right ul li h3 {
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .box-right ul li p {
+            /* 文本居中对齐 */
+            text-align: center;
+            /* 文本溢出时显示省略号 */
+            text-overflow: ellipsis;
+            /* 文本不换行 */
+            white-space: nowrap;
+            /* 隐藏溢出的文本 */
+            overflow: hidden;
+        }
+
+        .box-right ul li p {
+            color: rgb(177, 177, 177);
+        }
+
+        .box-right ul li p span {
+            color: rgb(255, 103, 1);
+        }
+
+        .box-right ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .box-right ul li:hover {
+            background: rgb(213, 213, 213);
+        }
+
+        .box-right ul li:hover img {
+            width: 180px;
+            height: 180px;
+            margin: 10px 30px 0 30px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <!-- 左侧图片 -->
+        <div class="box-left">
+            <a href="#大图">
+                <img src="./images/手机/大图.webp" alt="xiaomi14Ultea">
+            </a>
+        </div>
+        <!-- 右侧列表 -->
+        <div class="box-right">
+            <ul>
+                <li>
+                    <!-- 第一项 -->
+                    <a href="#1">
+                        <img src="./images/手机/1.webp" alt="Xiaomi 15">
+                        <h3>Xiaomi 15</h3>
+                        <p>徕卡光学 Summilux 高速镜头｜骁龙®8至尊版移动平台｜5400mAh 小米金沙江电池 小米澎湃OS 2</p>
+                        <p><span>4499元起</span></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第二项 -->
+                    <a href="#2">
+                        <img src="./images/手机/2.webp" alt="Xiaomi 15 Pro">
+                        <h3>Xiaomi 15 Pro</h3>
+                        <p>徕卡光学 Summilux 高速镜头｜骁龙®8至尊版移动平台｜6100mAh 小米金沙江电池 120mm 徕卡潜望长焦 ｜小米澎湃OS 2｜全生态AI助手 超级小爱</p>
+                        <p><span>4499元起</span></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第三项 -->
+                    <a href="#3">
+                        <img src="./images/手机/3.webp" alt="Xiaomi 15 定制版">
+                        <h3>Xiaomi 15 定制版</h3>
+                        <p>徕卡光学 Summilux 高速镜头｜骁龙®8至尊版移动平台｜5400mAh 小米金沙江电池 小米澎湃OS 2</p>
+                        <p><span>4499元起</span></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第四项 -->
+                    <a href="#4">
+                        <img src="./images/手机/4.webp" alt="Redmi Note 14 Pro+">
+                        <h3>Redmi Note 14 Pro+</h3>
+                        <p>第三代骁龙®7s</p>
+                        <p><span>1899元起</span><del>1999元</del></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第五项 -->
+                    <a href="#5">
+                        <img src="./images/手机/5.webp" alt="Redmi Note 14 Pro">
+                        <h3>Redmi Note 14 Pro</h3>
+                        <p>天玑 7300-Ultra</p>
+                        <p><span>1399元起</span><del>1499元</del></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第六项 -->
+                    <a href="#6">
+                        <img src="./images/手机/6.webp" alt="Redmi K70 至尊版">
+                        <h3>Redmi K70 至尊版</h3>
+                        <p>性能魔王 全面进化</p>
+                        <p><span>2599元起</span></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第七项 -->
+                    <a href="#7">
+                        <img src="./images/手机/7.webp" alt="Xiaomi MIX Flip">
+                        <h3>Xiaomi MIX Flip</h3>
+                        <p>4.01英寸多功能超大外屏|徕卡光学Summilux镜头</p>
+                        <p><span>5999元起</span></p>
+                    </a>
+                </li>
+                <li>
+                    <!-- 第八项 -->
+                    <a href="#8">
+                        <img src="./images/手机/8.webp" alt="Xiaomi MIX Fold 4">
+                        <h3>Xiaomi MIX Fold 4</h3>
+                        <p>超轻薄四曲面机身|小米龙骨转轴2.0|全碳纤维支撑架构</p>
+                        <p><span>8999元起</span></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
