@@ -1,6 +1,8 @@
 # dyh的文件
 
-- [简体中文](./README.md) | [繁体中文](./README_zh_TW.md) | [English](./README_en_US.md) | [日本語](./README_ja_JP.md)
+## 简介
+
+- 本项目用于存放一些文件，如html文件、js文件、css文件、图片、视频、音频等。
 
 ## 使用说明
 
@@ -49,7 +51,7 @@ Windows的安装程序。
 
 - 按照提示完成安装。
 
-### 如代码遇到问题，请到[问题提交](https://github.com/dyhcode/html-web/issues)反馈
+### 如遇到问题，请到[问题提交](https://github.com/dyhcode/html-web/issues)反馈
 
 ![茜特菈莉](./images/茜特菈莉.png)
 <!-- 我的茜特菈莉就是好看 -->
