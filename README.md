@@ -54,4 +54,4 @@ Windows的安装程序。
 ### 如遇到问题，请到[问题提交](https://github.com/dyhcode/html-web/issues)反馈
 
 ![茜特菈莉](./images/茜特菈莉.png)
-<!-- 我的茜特菈莉就是好看 -->
+<!-- 茜特菈莉就是好看 -->
