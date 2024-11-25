@@ -1,5 +1,6 @@
 {
     "commentTranslate.source": "Bing",
     "commentTranslate.hover.enabled": true,
-    "Codegeex.CompletionDelay": 3
+    "Codegeex.CompletionDelay": 3,
+    "livePreview.defaultPreviewPath": "/1.html"
 }
