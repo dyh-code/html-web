@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+    }
+
+    li {
+        width: 55px;
+        height: 55px;
+        background-color: #e2575733;
+        border-radius: 50px;
+        margin-left: 15px;
+        animation: dyh 2s ease infinite;
+    }
+
+    @keyframes dyh {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        50% {
+            transform: scale(1.5);
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 0.2;
+            background-color: #ff99997a;
+        }
+    }
+
+
+    li:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+    li:nth-child(2) {
+        animation-delay: 0.3s;
+    }
+    li:nth-child(3) {
+        animation-delay: 0.5s;
+    }
+    li:nth-child(4) {
+        animation-delay: 0.7s;
+    }
+    li:nth-child(5) {
+        animation-delay: 0.9s;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
